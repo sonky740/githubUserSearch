@@ -10,7 +10,7 @@ export const getHttp = async (way: string, username: string, pageNumber = 1, vis
     }`,
     headers: {
       accept: 'application/vnd.github+json',
-      Authorization: 'token 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', // 토큰이 없으면 요청에 제한이 있어서 403 에러남.
+      // Authorization: 'token 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', // 토큰이 없으면 요청에 제한이 있어서 403 에러남. // 토큰이 왜 자꾸 사라지지..?
     },
   };
   const response = await axios(config);
