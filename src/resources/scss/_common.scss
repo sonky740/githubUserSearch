@@ -1,0 +1,19 @@
+:root {
+    // spacing
+    --spacing1: 2rem;
+
+    // font-size
+    --heading2: 2.4rem;
+    --heading3: 2rem;
+
+    // color
+    --black: #111;
+    --blue: #0969da;
+
+    @media screen and (max-width: 425px) {
+        --spacing1: 1.6rem;
+
+        --heading2: 2rem;
+        --heading3: 1.6rem;
+    }
+}

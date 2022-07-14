@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+        <main class="wrap">
+            <header class="header">
+                <h1 class="header-title">Github 유저 검색기</h1>
+            </header>
+
+            <!-- 검색 영역 -->
+            <form class="search-form">
+                <fieldset>
+                    <legend>Github 유저 검색기</legend>
+
+                    <div class="search-box">
+                        <input type="text" placeholder="찾고 싶은 유저를 검색하세요." class="search-input">
+                        <button type="submit" class="search-btn">검색</button>
+                    </div>
+                </fieldset>
+            </form>
+
+            <!-- 검색 결과 -->
+            <div class="search-result">
+                <h2 class="search-result-title"></h2>
+                <ul class="search-result-list"></ul>
+            </div>
+
+            <!-- 검색 결과 - 레파지토리 리스트 결과 -->
+            <div class="repo-result">
+                <h2 class="repo-result-title"></h2>
+                <ul class="repo-result-list"></ul>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
